@@ -1,61 +1,35 @@
-# PrintFlow Frontend
+# Inventory UI
 
-A modern, responsive frontend application for paper printing company inventory management system built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui components.
+A modern frontend application for inventory management built with React and Vite.
 
-## 🎯 Demo Mode - No API Required!
+## Features
 
-This application runs in **demo mode** with mock authentication and data. No backend server or database setup needed!
+- User Authentication
+- Dashboard
+- Stock Management
+- Order Management
+- Invoice Generation
+- Report Generation
+- Filter Management
 
-## 🚀 Features
+## Setup
 
-### Core Functionality
-- **Dashboard**: Overview of printing operations with real-time statistics
-- **Paper Stock Management**: Manage different paper types, sizes, and quantities
-- **Ink & Supplies Management**: Track ink cartridges, toner, and printing supplies
-- **Print Jobs Management**: Handle print orders, job queues, and scheduling
-- **Production Management**: Manage press operations, finishing, and quality control
-- **Client Management**: Maintain customer and supplier information
-- **Reports**: Generate printing business and inventory reports
-- **Analytics**: Visual insights with charts and performance metrics
+1. Install dependencies:
+```bash
+npm install
+```
 
-### Technical Features
-- **Mock Authentication**: Demo login system (no real API calls)
-- **Global Search**: Fast, intelligent search across all modules
-- **Advanced Filtering**: Customizable filters for all data views
-- **Responsive Design**: Mobile-first design that works on all devices
-- **Type Safety**: Full TypeScript implementation
-- **Modern UI**: Clean, professional interface with shadcn/ui components
+2. Start development server:
+```bash
+npm run dev
+```
 
-## 🛠 Tech Stack
+3. Open in browser:
+Navigate to `http://localhost:5175`
 
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS v3.4
-- **UI Components**: shadcn/ui
-- **Routing**: React Router DOM
-- **State Management**: React Context API
-- **Charts**: Recharts
-- **Icons**: Lucide React
-- **Date Handling**: date-fns
-
-## 📦 Quick Start
-
-1. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-2. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-3. **Open in browser**
-   Navigate to `http://localhost:5175`
-
-4. **Login with demo credentials**
-   - Username: `demo` / Password: `demo`
-   - Or use any username/password combination
+4. Login with demo credentials:
+- Username: `demo` / Password: `demo`
+- Or use any username/password combination
 
 ## 🔐 Authentication
 
