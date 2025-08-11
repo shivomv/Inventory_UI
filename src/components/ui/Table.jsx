@@ -118,9 +118,9 @@ export const Table = ({
         </div>
       )}
 
-      <div className="overflow-x-auto bg-white rounded-xl shadow-md">
-        <table className="min-w-full text-sm text-gray-800">
-          <thead className="bg-gray-100 sticky top-0 z-10">
+      <div className="overflow-x-auto ">
+        <table className="min-w-full text-sm text-gray-990">
+          <thead className="bg-gray-500 sticky top-0 z-10">
             {table.getHeaderGroups().map((headerGroup) => (
               <tr key={headerGroup.id}>
                 {headerGroup.headers.map((header) => (
@@ -216,7 +216,7 @@ export const Table = ({
           <div className="flex items-center gap-2 flex-wrap">
             {enablePageSizeControl && (
               <select
-                className="border px-2 py-1 rounded text-sm"
+                className="border px-6 py-1 rounded text-sm"
                 value={table.getState().pagination.pageSize}
                 onChange={(e) => table.setPageSize(Number(e.target.value))}
               >

@@ -108,7 +108,7 @@ const ScrapPage = () => {
       },
       {
         accessorKey: 'scrapItem',
-        header: 'Scrap Item',
+        header: 'Item Name',
         cell: ({ row }) => row.getValue('scrapItem'),
       },
       {
@@ -220,7 +220,7 @@ const ScrapPage = () => {
                 <Input name="sheet" value={formData.sheet} onChange={handleChange} placeholder="Enter sheet name" />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Scrap Item</label>
+                <label className="block text-sm font-medium mb-1"> ItemName </label>
                 <Input name="scrapItem" value={formData.scrapItem} onChange={handleChange} placeholder="Enter scrap item" />
               </div>
               <div>
